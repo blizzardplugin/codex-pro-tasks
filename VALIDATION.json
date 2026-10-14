@@ -1,0 +1,33 @@
+{
+  "project": "codex-pro-tasks",
+  "unit_and_integration_tests": {
+    "passed": 20,
+    "failed": 0,
+    "skipped": 0,
+    "codex_calls": "offline test double; no subscription consumed",
+    "git": "real local clones, commits and pushes",
+    "http_sqlite": "real"
+  },
+  "browser": {
+    "passed": true,
+    "widths": [
+      320,
+      390,
+      1280
+    ],
+    "checks": [
+      "admin login",
+      "project registration",
+      "worker registration",
+      "queue submission",
+      "XSS text escaping",
+      "logout"
+    ]
+  },
+  "runtime_dependencies": "Python standard library; Git and official Codex CLI on workers; gh for GitHub pull requests",
+  "real_pro_workers_connected": 0,
+  "live_subscription_execution": "not performed",
+  "automatic_main_branch_merge": false,
+  "automatic_quota_failover": false,
+  "checked_at_utc": "2026-10-14T08:28:06.382637+00:00"
+}

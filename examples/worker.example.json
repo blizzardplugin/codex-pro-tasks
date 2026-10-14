@@ -1,0 +1,9 @@
+{
+  "coordinator": "http://127.0.0.1:8765",
+  "worker_id": "pro-1",
+  "token": "SUBSTITUA_PELO_TOKEN_DE_CONEXAO_GERADO_NO_PAINEL",
+  "allowed_projects": ["meu-projeto"],
+  "work_dir": ".workers/pro-1",
+  "codex_command": "codex",
+  "task_timeout_seconds": 3600
+}
